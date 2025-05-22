@@ -1,0 +1,27 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "echo 'No build step needed'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raydenic/Homepage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raydenic/Homepage/issues"
+  },
+  "homepage": "https://github.com/Raydenic/Homepage#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}
