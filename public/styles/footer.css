@@ -22,13 +22,16 @@ footer.footer {
 }
 
 .footer-section ul {
-  list-style: none;
+  display: flex;
+  flex-wrap: wrap; /* allow wrap on small screens */
+  gap: 1rem;
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 .footer-section ul li {
-  margin: 0.3rem 0;
+  margin: 0; /* remove top-bottom spacing */
 }
 
 .footer-section ul li a {
