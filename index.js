@@ -2,6 +2,8 @@ import express from "express"
 // import ejs from "ejs"
 import nodemail from "nodemailer"
 // import bodyParser from "body-parser";
+import dotenv from "dotenv";
+dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -22,8 +24,8 @@ app.get("/contact", (req, res) => {
     const transporter = nodemail.createTransport({
         service: "gmail",
         auth: {
-            user: "raydenic50@gmail.com",
-            pass: "#"
+            user: process.env.EMAIL_USER,
+            pass: process.env.EMAIL_PASS
         }
     })
 
