@@ -25,7 +25,7 @@ app.get("/services",(req,res)=>{
     res.render("services.ejs");
 })
 
-app.listen(port,()=>{
+
 app.get("/contact", (req, res) => {
     res.render("contact.ejs");
 }).post("/contact", async (req, res) => {
