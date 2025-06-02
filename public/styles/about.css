@@ -105,6 +105,11 @@ object-fit: contain;
         padding: 0;
         gap: 0;
     }
+
+    .values .container {
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .features h2 {
