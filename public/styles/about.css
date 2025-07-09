@@ -2,13 +2,13 @@
     /* #FFD700 - gold text */
 
     color: #FFD700;
-    padding: 1rem 20px;
+    padding: 4rem 20px;
     font-family: "Urbanist", sans-serif;
     text-align: center;
 }
 
 .first .container {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -76,12 +76,14 @@ object-fit: contain;
     /* center header and feature text */
 }
 
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 30px;
-
-    
+.container1 {
+   max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 
