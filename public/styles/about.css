@@ -2,12 +2,12 @@
     /* #FFD700 - gold text */
 
     color: #FFD700;
-    padding: 1rem 20px;
+    padding: 4rem 20px;
     font-family: "Urbanist", sans-serif;
     text-align: center;
 }
 
-.first .container {
+.first .container1 {
     max-width: 800px;
     margin: 0 auto;
     display: flex;
@@ -34,7 +34,7 @@
   text-align: left;
 }
 
-.container h2{
+.container1 h2{
 
 font-size: 1.5em;
 margin-block-start: 0em;
@@ -76,12 +76,14 @@ object-fit: contain;
     /* center header and feature text */
 }
 
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 30px;
-
-    
+.container1 {
+   max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 
@@ -95,7 +97,7 @@ object-fit: contain;
 .value-card {
     /* background-color: #1a1a2e; */
     border-radius: 5px;
-    padding: 1rem;
+    padding: 0rem;
     max-width: 200px;
     flex: 1 1 250px;
     /* box-shadow: 0 0 10px rgba(255, 215, 0, 0.2); */
