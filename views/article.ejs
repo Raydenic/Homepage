@@ -1,1 +1,11 @@
-//Displays the article
+<%- include("partials/header.ejs") %>
+<link rel="stylesheet" href="/styles/news.css" />
+<article class="full-article">
+  <h1><%= article.title %></h1>
+  <p class="article-meta"><%= article.date %> • <%= article.category %></p>
+  <img src="<%= article.image %>" alt="Article Image" class="article-image" />
+  <div class="article-content">
+    <%- article.content %>
+  </div>
+</article>
+<%- include("partials/footer.ejs") %>

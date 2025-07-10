@@ -1,0 +1,143 @@
+.featured-news {
+  font-family: "Urbanist", sans-serif;
+  color: #FFD700;
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.featured-hero {
+  background-color: #1a1a2e;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-desc {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #ccc;
+}
+
+.hero-link {
+  font-weight: bold;
+  color: #FFD700;
+  text-decoration: underline;
+}
+
+.news-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.news-card {
+  display: flex;
+  background-color: #11111c;
+  border: 1px solid #333;
+  border-radius: 8px;
+  overflow: hidden;
+  flex: 1 1 45%;
+  min-height: 250px;
+}
+
+.news-text {
+  padding: 1rem;
+  flex: 1;
+}
+
+.news-thumbnail {
+  width: 200px;
+  height: 100%;
+  background-color: #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.news-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.category {
+  color: #00ff99;
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.date {
+  color: #aaa;
+  font-size: 0.8rem;
+  margin: 0.5rem 0;
+}
+
+.summary {
+  color: #ddd;
+}
+
+.read-more {
+  margin-top: 1rem;
+  display: inline-block;
+  color: #FFD700;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Full article */
+.full-article {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  color: #FFD700;
+}
+
+.full-article h1 {
+  font-size: 40px;
+}
+
+.full-article .article-meta {
+  color: #aaa;
+  margin-bottom: 1rem;
+}
+
+.full-article .article-image {
+  width: 100%;
+  height: auto;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+
+.article-content {
+  color: #ddd;
+  line-height: 1.6;
+  font-size: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .news-card {
+    flex-direction: column;
+  }
+
+  .news-thumbnail {
+    width: 100%;
+    height: 180px;
+  }
+
+  .news-cards {
+    flex-direction: column;
+  }
+}
