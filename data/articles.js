@@ -25,70 +25,65 @@
 
 const articles = [
   {
-    title: "Raydenic Officially Launches, Begins Operations with Bold Vision for the Future",
+    title: "Raydenic is Now Live — Built to Empower Businesses with Smarter Data and Web Solutions",
     category: "World",
-    date: "Jun  2",
-    summary: "In a move that has stirred excitement in the tech and startup world...",
-    slug: "20250602",
-    image: "/images/article-images/20250602.jpg",
-    content: `<p><strong>Waterloo, June 2, 2025</strong> — In a move that has stirred excitement in the tech and startup world, <strong>Raydenic</strong>, a next-generation solutions provider, officially went live today, marking the beginning of its operations across North America.</p>
+    date: "Jul  3",
+    summary: "Today marks a proud milestone for the team at Raydenic: our official website is now live.",
+    slug: "20250703",
+    image: "/images/article-images/20250703.jpg",
+    content: `  <h1>Raydenic Website Officially Goes Live</h1>
+  <p><strong>Waterloo, ON — July 3, 2025</strong></p>
 
-  <p>Founded by a team of engineers and innovators, Raydenic aims to revolutionize the way businesses leverage digital infrastructure, AI integration, and sustainable automation. The company describes itself as “a catalyst for digital transformation,” and promises to deliver agile, secure, and intelligent systems for enterprises across sectors.</p>
+  <p>Today marks a proud milestone for the team at <strong>Raydenic</strong>: our official website is now live.</p>
 
-  <blockquote>
-    <p><em>“We’ve built Raydenic not just to keep up with the future—but to shape it. Our goal is to help organizations unlock their true potential using cutting-edge technology, while maintaining a human-first, responsible approach.”</em></p>
-    <footer>— Faizan Mustafa, CEO and Founder</footer>
-  </blockquote>
+  <p>We’re here to serve forward-thinking businesses that want to harness the full power of data analytics and web development — without the usual fluff, complexity, or guesswork. Whether you’re a founder looking for clarity in your metrics or a business leader ready to launch a sleek, high-performing website, Raydenic is ready to help you make it happen.</p>
 
-  <h2>💡 What Raydenic Offers</h2>
+  <h2> Who We Are</h2>
+  <p>We’re a Waterloo-based product and services company, focused on solving real problems through smart, scalable solutions. Our approach combines sharp technical know-how with a human touch — because we believe technology should work for people, not the other way around.</p>
+  <p>You’ll find this philosophy woven throughout our new site — clear, to-the-point, and built for action.</p>
+
+  <h2>What We Offer</h2>
+
+  <h3>Data Analytics for Your Business</h3>
+  <p>We turn messy, disconnected data into simple, actionable insights that drive results. Think:</p>
   <ul>
-    <li><strong>Custom AI-powered enterprise solutions</strong></li>
-    <li><strong>Cloud-native architecture and DevOps consulting</strong></li>
-    <li><strong>Cybersecurity integration for scalable systems</strong></li>
-    <li><strong>Data intelligence and analytics frameworks</strong></li>
+    <li>Clean dashboards that tell the full story</li>
+    <li>Predictive insights to help you plan smarter</li>
+    <li>Custom tools built with Power BI, Looker, Tableau, and more</li>
   </ul>
+  <p>No generic templates — just tailored solutions that fit your needs.</p>
 
-  <h2>📈 Early Interest and Market Buzz</h2>
-  <p>Investors and early adopters are already showing interest, citing Raydenic’s promise to fill a gap in the market where legacy systems meet the demands of modern tech.</p>
-  <p><em>“Raydenic has the right mix of innovation and execution focus,”</em> said Anika Desai, a Toronto-based venture analyst. <em>“Their timing couldn’t be better.”</em></p>
+  <h3>Web Development that Converts</h3>
+  <p>Your website is more than a business card — it's your growth engine. We design and build:</p>
+  <ul>
+    <li>Sleek landing pages and product sites</li>
+    <li>E-commerce stores that are fast and user-friendly</li>
+    <li>Mobile-first experiences optimized for search and performance</li>
+  </ul>
+  <p>We use stacks like React, Next.js, and Vercel — or whatever tools best match your goals.</p>
 
-  <h2>🌐 Looking Ahead</h2>
-  <p>Raydenic is launching with operations in Toronto and Waterloo, with plans to expand into the U.S. and Asia by mid-2026. The company has also teased an upcoming open-source initiative to foster developer collaboration.</p>
+  <h2>Why We Built Raydenic</h2>
+  <p>Our mission is simple but bold:<br>
+  <strong>To identify and solve the world’s most pressing problems using software, AI, and data.</strong></p>
 
-  <p>For more information or to explore partnership opportunities, visit <a href="https://www.raydenic.com">www.raydenic.com</a>.</p>`
+  <p>We’re especially passionate about helping local businesses, startups, and growing teams scale with confidence. We see ourselves as your partner — not just your vendor.</p>
+
+  <p>And with our new website live, that partnership begins with just one click.</p>
+
+  <h2>Let’s Build Something Meaningful</h2>
+  <p>We invite you to explore the new site, learn more about our services, and see how Raydenic can help you grow, solve, and scale.</p>
+
+  <p>Whether you're just starting out or planning your next big move, we’re here — ready to listen, build, and grow with you.</p>
+
+  <p>Visit <a href="https://www.raydenic.com">raydenic.com</a> to get started.</p>
+
+  <footer>
+    <p><strong>Raydenic</strong><br>
+    Illuminating Solutions for a Dynamic World<br>
+    <a href="mailto:info@raydenic.com">info@raydenic.com</a><br>
+    Waterloo, Ontario</p>
+  </footer>`
   },
-  {
-    title: "Raydenic Officially Launches, Begins Operations with Bold Vision for the Future",
-    category: "World",
-    date: "Jun  2",
-    summary: "In a move that has stirred excitement in the tech and startup world...",
-    slug: "20250602",
-    image: "/images/article-images/20250602.jpg",
-    content: `<p><strong>Waterloo, June 2, 2025</strong> — In a move that has stirred excitement in the tech and startup world, <strong>Raydenic</strong>, a next-generation solutions provider, officially went live today, marking the beginning of its operations across North America.</p>
-
-  <p>Founded by a team of engineers and innovators, Raydenic aims to revolutionize the way businesses leverage digital infrastructure, AI integration, and sustainable automation. The company describes itself as “a catalyst for digital transformation,” and promises to deliver agile, secure, and intelligent systems for enterprises across sectors.</p>
-
-  <blockquote>
-    <p><em>“We’ve built Raydenic not just to keep up with the future—but to shape it. Our goal is to help organizations unlock their true potential using cutting-edge technology, while maintaining a human-first, responsible approach.”</em></p>
-    <footer>— Faizan Mustafa, CEO and Founder</footer>
-  </blockquote>
-
-  <h2>💡 What Raydenic Offers</h2>
-  <ul>
-    <li><strong>Custom AI-powered enterprise solutions</strong></li>
-    <li><strong>Cloud-native architecture and DevOps consulting</strong></li>
-    <li><strong>Cybersecurity integration for scalable systems</strong></li>
-    <li><strong>Data intelligence and analytics frameworks</strong></li>
-  </ul>
-
-  <h2>📈 Early Interest and Market Buzz</h2>
-  <p>Investors and early adopters are already showing interest, citing Raydenic’s promise to fill a gap in the market where legacy systems meet the demands of modern tech.</p>
-  <p><em>“Raydenic has the right mix of innovation and execution focus,”</em> said Anika Desai, a Toronto-based venture analyst. <em>“Their timing couldn’t be better.”</em></p>
-
-  <h2>🌐 Looking Ahead</h2>
-  <p>Raydenic is launching with operations in Toronto and Waterloo, with plans to expand into the U.S. and Asia by mid-2026. The company has also teased an upcoming open-source initiative to foster developer collaboration.</p>
-
-  <p>For more information or to explore partnership opportunities, visit <a href="https://www.raydenic.com">www.raydenic.com</a>.</p>`
-  }
+  
 ];
 export default articles;

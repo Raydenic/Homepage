@@ -98,6 +98,7 @@
 
 /* Full article */
 .full-article {
+  font-family: "Urbanist", sans-serif;
   max-width: 800px;
   margin: 2rem auto;
   padding: 1rem;
