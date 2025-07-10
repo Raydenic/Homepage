@@ -11,6 +11,7 @@ const port = process.env.PORT || 3000;
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+// app.use("images/RayDenic-favicon.ico",express.static('public/RayDenic-favicon.ico'))
 
 app.get("/", (req, res) => {
     res.render("index.ejs");

@@ -7,8 +7,8 @@
     text-align: center;
 }
 
-.first .container {
-    max-width: 1200px;
+.first .container1 {
+    max-width: 800px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -34,7 +34,7 @@
   text-align: left;
 }
 
-.container h2{
+.container1 h2{
 
 font-size: 1.5em;
 margin-block-start: 0em;
@@ -97,7 +97,7 @@ object-fit: contain;
 .value-card {
     /* background-color: #1a1a2e; */
     border-radius: 5px;
-    padding: 1rem;
+    padding: 0rem;
     max-width: 200px;
     flex: 1 1 250px;
     /* box-shadow: 0 0 10px rgba(255, 215, 0, 0.2); */
