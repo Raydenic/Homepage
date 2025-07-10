@@ -14,10 +14,20 @@
   font-size: 3rem;
 }
 
-.contact-container h1,
-.contact-container h2 {
+.contact-container h1 {
+  font-size: 4rem;
   color: #FFD700;
   margin-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 900;
+  margin: 0.5rem;
+}
+
+.contact-container h2{
+  color: #FFD700;
+  margin-bottom: 0.5rem;
+  text-align: center;
+
 }
 
 .contact-container p {

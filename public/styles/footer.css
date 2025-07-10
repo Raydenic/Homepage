@@ -92,6 +92,12 @@ footer.footer {
   color: #aaa;
 }
 
+.social-links1 {
+  text-align: left;
+  color: #aaa;
+
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .footer-container {
