@@ -1,0 +1,26 @@
+<%- include("partials/header.ejs") %>
+<link rel="stylesheet" href="/styles/news.css" />
+<section class="featured-news">
+  <div class="featured-hero">
+    <h1 class="hero-title"><%= articles[0].title %></h1>
+    <p class="hero-desc"><%= articles[0].summary %></p>
+    <a href="/news/<%= articles[0].slug %>" class="hero-link">Continue reading...</a>
+  </div>
+  <div class="news-cards">
+    <% for(let i=1;i<articles.length;i++) { %>   
+    <div class="news-card">
+      <div class="news-text">
+        <span class="category"><%= articles[i].category %></span>
+        <h3 class="title"><%= articles[i].title %></h3>
+        <p class="date"><%= articles[i].date %></p>
+        <p class="summary"><%= articles[i].summary %></p>
+        <a href="/news/<%= articles[i].slug %>" class="read-more">Continue reading →</a>
+      </div>
+      <div class="news-thumbnail">
+        <img src="<%= articles[i].image || '/images/placeholder.png' %>" alt="Thumbnail" />
+      </div>
+    </div>
+    <% } %>
+  </div>
+</section>
+<%- include("partials/footer.ejs") %>

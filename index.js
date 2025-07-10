@@ -3,14 +3,17 @@ import express from "express"
 import nodemail from "nodemailer"
 // import bodyParser from "body-parser";
 import dotenv from "dotenv";
+import newsRoutes from "./routes/news.js"
 dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 3000;
 
+
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use("/news",newsRoutes);
 // app.use("images/RayDenic-favicon.ico",express.static('public/RayDenic-favicon.ico'))
 
 app.get("/", (req, res) => {
