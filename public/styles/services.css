@@ -52,6 +52,6 @@
     font-family: "Urbanist", sans-serif;
     text-align: center;
     width: fit-content;
-    margin-top: 10;
+    margin-top: 15px;
     /* button shrinks to content */
 }
