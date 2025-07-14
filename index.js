@@ -17,21 +17,21 @@ app.use("/news",newsRoutes);
 // app.use("images/RayDenic-favicon.ico",express.static('public/RayDenic-favicon.ico'))
 
 app.get("/", (req, res) => {
-    res.render("index.ejs");
+    res.render("index.ejs",{title:"Raydenic"});
 })
 
 app.get("/about",(req,res)=>{
-    res.render("about.ejs");
+    res.render("about.ejs",{title:"About - Raydenic"});
 })
 
 
 app.get("/services",(req,res)=>{
-    res.render("services.ejs");
+    res.render("services.ejs",{title:"Services - Raydenic"});
 })
 
 
 app.get("/contact", (req, res) => {
-    res.render("contact.ejs");
+    res.render("contact.ejs",{title:"Contact - Raydenic"});
 }).post("/contact", async (req, res) => {
     const { name, email, company, message } = req.body;
 
