@@ -32,7 +32,7 @@ const articles = [
     slug: "20250703",
     image: "/images/article-images/20250703.jpg",
     content: `  <h1>Raydenic Website Officially Goes Live</h1>
-  <p><strong>Waterloo, ON — July 3, 2025</strong></p>
+  <p><strong>Waterloo, ON — July 15, 2025</strong></p>
 
   <p>Today marks a proud milestone for the team at <strong>Raydenic</strong>: our official website is now live.</p>
 
