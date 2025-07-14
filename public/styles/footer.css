@@ -98,6 +98,9 @@ footer.footer {
 
 }
 
+.social-link {
+  color:#e6c200 ;
+}
 /* Responsive */
 @media (max-width: 768px) {
   .footer-container {

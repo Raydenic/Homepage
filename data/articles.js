@@ -75,12 +75,12 @@ const articles = [
 
   <p>Whether you're just starting out or planning your next big move, we’re here — ready to listen, build, and grow with you.</p>
 
-  <p>Visit <a href="https://www.raydenic.com">raydenic.com</a> to get started.</p>
+  <p>Visit <a style="color:#FFB700" href="https://www.raydenic.com">raydenic.com</a> to get started.</p>
 
   <footer>
     <p><strong>Raydenic</strong><br>
     Illuminating Solutions for a Dynamic World<br>
-    <a href="mailto:info@raydenic.com">info@raydenic.com</a><br>
+    <a style="color:#FFB700" href="mailto:raydenic50@gmail.com">raydenic50@gmail.com</a><br>
     Waterloo, Ontario</p>
   </footer>`
   },
