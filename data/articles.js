@@ -27,7 +27,7 @@ const articles = [
   {
     title: "Raydenic is Now Live — Built to Empower Businesses with Smarter Data and Web Solutions",
     category: "World",
-    date: "Jul  3",
+    date: "Jul 15, 2025",
     summary: "Today marks a proud milestone for the team at Raydenic: our official website is now live.",
     slug: "20250703",
     image: "/images/article-images/20250703.jpg",
