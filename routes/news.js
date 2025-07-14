@@ -4,7 +4,7 @@ import articles from "../data/articles.js";  //articles contains a list of js ob
 const router=express.Router();
 
 router.get("/",(req,res)=>{
-    res.render("news.ejs",{articles}); //articles is sent to news.ejs so that it can be displayed in a proper formatted manner
+    res.render("news.ejs",{title:"News - Raydenic",articles}); //articles is sent to news.ejs so that it can be displayed in a proper formatted manner
     // res.send("Working");
 })
 
@@ -15,7 +15,7 @@ router.get('/:slug',(req,res)=>{   //The article ID is based on the data and tim
     if(!article) {
         return res.status(404).send("Article not found");
     }
-    res.render("article.ejs",{article})   // The variable article from js object articles is sent to article.ejs to be displayed in a proper formatted manner
+    res.render("article.ejs",{title:"News - Raydenic",article})   // The variable article from js object articles is sent to article.ejs to be displayed in a proper formatted manner
 })
 
 export default router
