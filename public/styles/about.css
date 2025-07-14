@@ -61,8 +61,19 @@ object-fit: contain;
         align-items: center;
         justify-content: center;
     }
-}
 
+    
+    .container1 {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 1 20px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+
+}
 
 
 .values {
@@ -82,7 +93,7 @@ object-fit: contain;
   padding: 0 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
